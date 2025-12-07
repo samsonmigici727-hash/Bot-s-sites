@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tutorials - WhatsApp Bots Overloaded</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Cyber Background -->
+    <div class="cyber-bg"></div>
+    
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>⚡ WhatsApp Bots Overloaded</h1>
+                <div class="tech-badge">TECH HUB</div>
+            </div>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">🏠 Home</a></li>
+                <li><a href="tutorials.html" class="nav-link active">📚 Tutorials</a></li>
+                <li><a href="special-videos.html" class="nav-link">🎬 Special Videos</a></li>
+                <li><a href="social.html" class="nav-link">🌐 Social</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h1 class="page-title cyber-glitch" data-text="All Bot Tutorials">
+                All Bot Tutorials
+            </h1>
+            <p class="page-description">
+                Complete collection of WhatsApp bot tutorials. Filter by difficulty level and explore all available automation solutions.
+            </p>
+            
+            <div class="filters-section">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Bots</button>
+                    <button class="filter-btn" data-filter="beginner">🚀 Beginner</button>
+                    <button class="filter-btn" data-filter="intermediate">⚡ Intermediate</button>
+                    <button class="filter-btn" data-filter="advanced">🔥 Advanced</button>
+                </div>
+                
+                <div class="search-box">
+                    <input type="text" id="botSearch" placeholder="🔍 Search bots..." class="search-input">
+                </div>
+            </div>
+        </section>
+
+        <section class="tutorials-section">
+            <div class="stats-bar">
+                <span class="stat-item">Total Bots: <strong id="totalBots">0</strong></span>
+                <span class="stat-item">Active: <strong id="activeBots">0</strong></span>
+                <span class="stat-item">Last Updated: <strong id="lastUpdate">-</strong></strong></span>
+            </div>
+
+            <div class="bots-grid" id="allBots">
+                <!-- Dynamically loaded from modules -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 WhatsApp Bots Overloaded. Built with ⚡ by the tech community.</p>
+    </footer>
+
+    <script src="js/modules.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/filters.js"></script>
+</body>
+</html>
